@@ -20,7 +20,7 @@
   <!-- Benzo Clang -->
   <project path="toolchain/llvm_benzo" name="llvm_benzo" remote="benzoClang" revision="master"/>
   <project path="toolchain/llvm-project" name="llvm-project" remote="benzoClang" revision="master"/>
-  <project path="toolchain/llvm-project/llvm/tools/binutils" name="binutils" remote="benzoClang" revision="2.33"/>
+  <project path="toolchain/llvm-project/llvm/tools/binutils" name="binutils" remote="benzoClang" revision="2.34"/>
 
   <!-- AOSP -->
   <project path="bionic" name="platform/bionic" revision="290c0cb5044b643e5d6cbcb1a5b275541ca3a89e"/>
