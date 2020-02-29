@@ -24,7 +24,7 @@
 
   <!-- AOSP -->
   <project path="bionic" name="platform/bionic" revision="290c0cb5044b643e5d6cbcb1a5b275541ca3a89e"/>
-  <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="47bfb2f99800917f95cc26c80e64d2444285e9bf"/>
+  <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="0ae38c8498caea9b826385ec14a1fa1d9da262cd"/>
   <project path="toolchain/binutils" name="toolchain/binutils" revision="ce2dc2e2f8d5117f9bb929c46d4020a8b433b5fa"/>
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
 
@@ -32,7 +32,7 @@
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" revision="da4b9cb08341185e002c8a8c5df73533cdb93b41"/>
 
   <!-- Clang Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="4d36778d4efa359fd4a8eedd0d89e07b5f50aaf6"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="debf6e0c185a02a1cb43bc599c52d2b91445fb1b"/>
 
   <!-- GCC Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" revision="abf20060fb410d3c59c6efeee85e6995c4719234"/>
