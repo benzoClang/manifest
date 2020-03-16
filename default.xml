@@ -18,25 +18,26 @@
       sync-j="4"
       sync-tags="false" />
 
-  <!-- Benzo Clang -->
+  <!-- benzoClang -->
   <project path="toolchain/llvm_benzo" name="llvm_benzo" remote="benzoClang"/>
   <project path="toolchain/llvm-project" name="llvm-project" remote="benzoClang"/>
   <project path="toolchain/llvm-project/llvm/tools/binutils" name="binutils" remote="benzoClang" revision="2.34"/>
+
+  <!-- benzoClang Prebuilts -->
   <project path="prebuilts/build-tools/linux-x86" name="prebuilts_build-tools_linux-x86" remote="benzoClang"/>
 
   <!-- AOSP -->
   <project path="bionic" name="platform/bionic" revision="290c0cb5044b643e5d6cbcb1a5b275541ca3a89e"/>
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="0ae38c8498caea9b826385ec14a1fa1d9da262cd"/>
-  <project path="toolchain/binutils" name="toolchain/binutils" revision="ce2dc2e2f8d5117f9bb929c46d4020a8b433b5fa"/>
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
 
-  <!-- CMake Prebuilts -->
+  <!-- AOSP CMake Prebuilts -->
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" revision="0a8ff149fbf6a66df274981f3d4edb2ad9ee800a"/>
 
-  <!-- Clang Prebuilts -->
+  <!-- AOSP Clang Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="debf6e0c185a02a1cb43bc599c52d2b91445fb1b"/>
 
-  <!-- GCC Prebuilts -->
+  <!-- AOSP GCC Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="abf20060fb410d3c59c6efeee85e6995c4719234"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="2b009604ba2de459fb57cea5bf1abfc7d6281b48"/>
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="38a84132fa01609e19beaa3552621313df41ffaf"/>
