@@ -34,7 +34,7 @@
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
 
   <!-- AOSP Clang Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="c643f2087a1bbe92a89b25983e5a9bfad644d162"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="70642ffab840f51e721b008bb7505704d680e985"/>
 
   <!-- AOSP GCC Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="abf20060fb410d3c59c6efeee85e6995c4719234"/>
