@@ -4,33 +4,33 @@
   <remote
       name="benzoClang"
       fetch="https://github.com/benzoClang"
-      revision="master" />
+      revision="master"/>
 
   <remote
       name="aosp"
       fetch="https://android.googlesource.com"
-      review="android-review.googlesource.com" />
+      review="android-review.googlesource.com"/>
 
   <default
       remote="aosp"
       revision="master"
       sync-c="true"
       sync-j="4"
-      sync-tags="false" />
+      sync-tags="false"/>
 
   <!-- benzoClang -->
   <project path="toolchain/llvm_benzo" name="llvm_benzo" remote="benzoClang"/>
   <project path="toolchain/llvm-project" name="llvm-project" remote="benzoClang"/>
   <project path="toolchain/llvm-project/llvm/tools/binutils" name="binutils" remote="benzoClang" revision="2.34"/>
+  <project path="external/toolchain-utils" name="external_toolchain-utils" remote="benzoClang"/>
 
   <!-- Cmake/Ninja - Go - Python-->
-  <project path="prebuilts/cmake/linux-x86" name="prebuilts_cmake_linux-x86" />
-  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" />
-  <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86" />
+  <project path="prebuilts/cmake/linux-x86" name="prebuilts_cmake_linux-x86"/>
+  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86"/>
+  <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86"/>
 
   <!-- AOSP -->
-  <project path="bionic" name="platform/bionic" revision="2a069b24df1efffde894b186a669b8b95d4f1fc2"/>
-  <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="0ae38c8498caea9b826385ec14a1fa1d9da262cd"/>
+  <project path="bionic" name="platform/bionic" revision="138897d14ac648c341817e96f009035302f29f49"/>
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
 
   <!-- AOSP Clang Prebuilts -->
