@@ -30,7 +30,7 @@
   <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86"/>
 
   <!-- AOSP -->
-  <project path="bionic" name="platform/bionic" revision="138897d14ac648c341817e96f009035302f29f49"/>
+  <project path="bionic" name="platform/bionic" revision="08a43426a0bcbc53cd2a33b3624bc6b3f7176117"/>
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
 
   <!-- AOSP Clang Prebuilts -->
