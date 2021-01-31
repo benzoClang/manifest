@@ -21,7 +21,7 @@
   <!-- benzoClang -->
   <project path="toolchain/llvm_benzo" name="llvm_benzo" remote="benzoClang"/>
   <project path="toolchain/llvm-project" name="llvm-project" remote="benzoClang"/>
-  <project path="toolchain/llvm-project/llvm/tools/binutils" name="binutils" remote="benzoClang" revision="2.35"/>
+  <project path="toolchain/binutils" name="binutils" remote="benzoClang" revision="2.35"/>
   <project path="external/toolchain-utils" name="external_toolchain-utils" remote="benzoClang"/>
 
   <!-- Cmake/Ninja - Go - Python-->
