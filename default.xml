@@ -25,9 +25,9 @@
   <project path="external/toolchain-utils" name="external_toolchain-utils" remote="benzoClang"/>
 
   <!-- Cmake/Ninja - Go - Python-->
-  <project path="prebuilts/cmake/linux-x86" name="prebuilts_cmake_linux-x86"/>
-  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86"/>
-  <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86"/>
+  <project path="prebuilts/cmake/linux-x86" name="prebuilts_cmake_linux-x86" remote="benzoClang"/>
+  <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzoClang"/>
+  <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86" remote="benzoClang"/>
 
   <!-- AOSP -->
   <project path="bionic" name="platform/bionic" revision="08a43426a0bcbc53cd2a33b3624bc6b3f7176117"/>
