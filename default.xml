@@ -31,8 +31,7 @@
 
   <!-- AOSP -->
   <project path="bionic" name="platform/bionic" revision="08a43426a0bcbc53cd2a33b3624bc6b3f7176117"/>
-  <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350"/>
-  <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" />
+  <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="6c5fa4c0d3999b9ee932f6acbd430eb2f31f3151"/>
 
   <!-- AOSP Clang Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="0f0ec3b6f93fcd52395fdbbc1db591b0f1a07d64"/>
