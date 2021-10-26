@@ -29,18 +29,14 @@
   <project path="bionic" name="platform/bionic" revision="ndk-release-r23" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
 
-
   <!-- Cmake/Ninja - Go - Python-->
   <project path="prebuilts/cmake/linux-x86" name="prebuilts_cmake_linux-x86" remote="benzoClang" />
   <project path="prebuilts/go/linux-x86" name="prebuilts_go_linux-x86" remote="benzoClang" />
   <project path="prebuilts/python/linux-x86" name="prebuilts_python_linux-x86" remote="benzoClang" />
 
   <!-- AOSP GCC Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
 
   <!-- NDK headers/libraries -->
   <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" />
