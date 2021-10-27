@@ -27,7 +27,7 @@
   <project path="toolchain/xz" name="toolchain/xz" />
 
   <!-- AOSP -->
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform/bionic" revision="ndk-release-r23" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
 
 
