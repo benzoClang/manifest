@@ -25,7 +25,7 @@
   <project path="toolchain/xz" name="toolchain/xz" remote="aosp" />
 
   <!-- AOSP -->
-  <project path="bionic" name="platform/bionic" revision="ndk-release-r23" remote="aosp" />
+  <project path="bionic" name="platform/bionic" remote="aosp" revision="build-tools-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/build-tools" remote="aosp" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" />
