@@ -3,9 +3,15 @@
 
   <remote  name="benzoClang"
            fetch="https://github.com/benzoClang" />
+
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/"
+           revision="master" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            revision="master" />
+
   <default remote="benzoClang"
            revision="master"
            sync-c="true"
@@ -40,5 +46,6 @@
 
   <!-- NDK headers/libraries -->
   <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" remote="aosp" />
-  <project path="toolchain/prebuilts/ndk/r24" name="toolchain/prebuilts/ndk/r24" remote="aosp" />
+  <project path="toolchain/prebuilts/ndk/r25" name="xanaxdroid/android-ndk-r25" remote="bitbucket" />
+
 </manifest>
