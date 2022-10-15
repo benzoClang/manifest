@@ -23,6 +23,9 @@
   <project path="toolchain/llvm-project" name="llvm-project" />
   <project path="external/toolchain-utils" name="external_toolchain-utils" />
 
+  <!-- Dependencies for llvm -->
+  <project path="external/zstd" name="platform/external/zstd" remote="aosp" />
+
   <!-- Dependencies for lldb -->
   <project path="external/libedit" name="platform/external/libedit" remote="aosp" />
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" />
