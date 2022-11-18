@@ -45,7 +45,6 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" remote="aosp" />
 
   <!-- NDK headers/libraries -->
-  <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" remote="aosp" />
-  <project path="toolchain/prebuilts/ndk/r25" name="xanaxdroid/android-ndk-r25" remote="bitbucket" />
+  <project path="toolchain/prebuilts/ndk/r25" name="toolchain/prebuilts/ndk/r25" remote="aosp" />
 
 </manifest>
